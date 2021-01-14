@@ -1,2 +1,6 @@
 click==7.1.2
 docx2txt==0.8
+et-xmlfile==1.0.1
+jdcal==1.4.1
+more-itertools==8.6.0
+openpyxl==3.0.5

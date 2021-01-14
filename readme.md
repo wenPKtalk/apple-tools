@@ -13,3 +13,8 @@ virtualenv venv
 ```
 pip3 install -r requirements.txt
 ```
+## word转txt
+将word放到word目录下，执行
+```
+python3 word2txt.py --path "word的绝对路径"
+```
