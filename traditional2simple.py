@@ -3,7 +3,6 @@ import os
 import pathlib
 import sys
 
-import click
 import opencc
 
 _this_dir = os.path.dirname(os.path.abspath(__file__))
