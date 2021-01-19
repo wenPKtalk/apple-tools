@@ -31,7 +31,6 @@ def main(path):
         file_path = os.path.join(data_path, item)
         stem, ext = os.path.splitext(item)
         out_path = os.path.join(save_path, stem + '.txt')
-        info = f'{os.path.basename(file_path)} -> {os.path.basename(out_path)}'
         word2txt(file_path, out_path)
 
 
